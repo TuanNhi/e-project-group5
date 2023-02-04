@@ -18,7 +18,7 @@ eProject documentation at https://github.com/lnnhi1310/Kitchen-Appliances/tree/m
 
 ============================
 
-eProject published at https://lnnhi1310.github.io/Kitchen-Appliances/index.html
+eProject published at https://tuannhi.github.io/e-project-group5/
 
 ============================
 

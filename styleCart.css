@@ -109,6 +109,7 @@ ul li #countItem{
     font-size: 20px;
 }
 
+
 /* Services */
 .title {
     text-align: center;
@@ -139,9 +140,7 @@ ul li #countItem{
 .service:hover.service h1,
 .service:hover.service .fa,
 .service:hover.service .product tr td h2,
-.service:hover.service .product tr td div,
-.service:hover.service .product tr td,
-.service:hover.service .product tr td h3{
+.service:hover.service tr td {
     color: white;
 }
 
@@ -153,8 +152,11 @@ ul li #countItem{
 .service h1 {
     margin-bottom: 10px;
 }
-.product tr td{
-    padding: 0 20px;
+tr td{
+    padding: 0 50px;
+}
+table{
+    margin: auto;
 }
 
 

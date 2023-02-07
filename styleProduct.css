@@ -101,10 +101,7 @@ ul li a {
     margin-bottom: 30px;
     color: whitesmoke;
 }
-ul li #countItem{
-    position: absolute;
-    top: 65px;
-    left: 1350px;
+ ul li #countItem{
     font-weight: 700;
     font-size: 20px;
 }

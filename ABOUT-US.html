@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-
-    <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleProduct.css">
 </head>
+
 <body>
 
     <!-- HEADER -->
@@ -23,7 +20,7 @@
         <div class="container">
             <nav class="nav" id="nav">
                 <div class="logo">
-                    <a href="index.html"><img src="./image/x.png" alt="" height=""></a>
+                    <a href="HOME.html"><img src="./image/x.png" alt="" height=""></a>
                 </div>
                 <ul class="nav-list">
                     <li class="nav-item"><a href="index.html">Home</a></li>
@@ -32,31 +29,73 @@
                     <li class="nav-item"><a href="CONTACT.html">Contact</a></li>
                     <li class="nav-item ctn"><a href="#">Belleville Dental</a></li>
                     <li class="nav-item">
-                        <a href="cart.html" >
+                        <a href="cart.html">
                             <img src="imageProduct/icon-shop.png" width="40px">
                         </a>
+                        <div id="countItem"></div>
                     </li>
-                    <li class="nav-item"><div id="countItem"></div></li>
                 </ul>
                 <div class="toggle"><i class="fa fa-bars"></i></div>
             </nav>
-            
-            <div data-aos="fade-down" class="header-content">
-                <h3>Dental or oral health is concerned with your teeth, gums and mouth. The goal is to prevent complications such as tooth decay (cavities) and gum disease and to maintain the overall health of your mouth.
-                    A healthy mouth, free of infections, injuries and other problems with teeth and gums, is important in maintaining your overall health.
-                    Although a different set of medical professionals focuses on dental health, they are still part of your regular health care team.
-                    Disease and other conditions can affect your dental health and dental problems can affect other parts of your body. Failing to properly care for your oral health may lead to other health problems.
-                    You can help prevent or minimize many oral health problems by regular preventive steps (brushing, flossing and so on) and regular visits to dental health professionals.</h3>
-                <button class="ctn">Learn More</button>
-            </div>
         </div>
     </header>
+
+    <!-- Info to contact -->
+    <section id="services" class="services">
+        <div class="container">
+            <div data-aos="fade-down">
+                <table style="width: 100%;">
+                    <tbody>
+                        <tr>
+                            <td style="width: 50%">
+                                <div>
+                                    <div class="col col-sm-12" style="text-align: justify;">
+                                        <h5>Dental or oral health is concerned with your teeth, gums and mouth. The goal
+                                            is to prevent
+                                            complications such as tooth decay (cavities) and gum disease and to maintain
+                                            the overall health
+                                            of your mouth.
+                                            A healthy mouth, free of infections, injuries and other problems with teeth
+                                            and gums, is
+                                            important in maintaining your overall health.
+                                            Although a different set of medical professionals focuses on dental health,
+                                            they are still part
+                                            of your regular health care team.
+                                            Disease and other conditions can affect your dental health and dental
+                                            problems can affect other
+                                            parts of your body. Failing to properly care for your oral health may lead
+                                            to other health
+                                            problems.
+                                            You can help prevent or minimize many oral health problems by regular
+                                            preventive steps
+                                            (brushing, flossing and so on) and regular visits to dental health
+                                            professionals.</h5>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <div class="col col-sm-12" style="text-align: center;">
+                                        <img src="image/ContactUs.jpg" style="width: 80%;">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
     <!-- get Started -->
     <section class="getstarted">
         <div data-aos="flip-down" class="ctn-wrapper">
             <div class="text">
                 <h1>We use modern technologies every day</h1>
-                <p>Modern technologies have always been part of our work, both during our upbringing and education, and during work in our center. We easily use their full potential while performing work tasks, which enables us to provide more accurate diagnostics and better quality service with a shorter stay in the office.</p>
+                <p>Modern technologies have always been part of our work, both during our upbringing and education, and
+                    during work in our center. We easily use their full potential while performing work tasks, which
+                    enables us to provide more accurate diagnostics and better quality service with a shorter stay in
+                    the office.</p>
             </div>
             <button class="ctn">07-xxxx-1022</button>
         </div>
@@ -71,38 +110,46 @@
                 </div>
                 <p>Dental or oral health is concerned with your teeth, gums and mouth</p>
                 <ul class="social-icons">
-                    <li><div class="fa fa-facebook"></div></li>
-                    <li><div class="fa fa-twitter"></div></li>
-                    <li><div class="fa fa-github"></div></li>
-                    <li><div class="fa fa-youtube"></div></li>
+                    <li>
+                        <div class="fa fa-facebook"></div>
+                    </li>
+                    <li>
+                        <div class="fa fa-twitter"></div>
+                    </li>
+                    <li>
+                        <div class="fa fa-github"></div>
+                    </li>
+                    <li>
+                        <div class="fa fa-youtube"></div>
+                    </li>
                 </ul>
             </div>
             <div data-aos="zoom-in" class="col">
                 <h3>Company</h3>
                 <ul class="footer-links">
-                  <li>Home</li>  
-                  <li><a href="ABOUT-US.html">About</a></li>  
-                  <li>Product</li>  
-                  <li>Contact</li>  
+                    <li>Home</li>
+                    <li><a href="ABOUT-US.html">About</a></li>
+                    <li>Product</li>
+                    <li>Contact</li>
                 </ul>
             </div>
 
             <div data-aos="zoom-in" class="col">
                 <h3>Business</h3>
                 <ul class="footer-links">
-                  <li>Project</li>  
-                  <li>Our Team</li>  
-                  <li>Affiliate</li>  
-                  <li>Customers</li>  
+                    <li>Project</li>
+                    <li>Our Team</li>
+                    <li>Affiliate</li>
+                    <li>Customers</li>
                 </ul>
             </div>
 
             <div data-aos="zoom-in" class="col">
                 <h3>Get In Touch</h3>
                 <ul class="footer-links">
-                  <li>xxxxxxx@gmail.com</li>  
-                  <li>07xxxx1022</li>  
-                  <li>TP.HCM</li>    
+                    <li>xxxxxxx@gmail.com</li>
+                    <li>07xxxx1022</li>
+                    <li>TP.HCM</li>
                 </ul>
             </div>
         </div>
@@ -118,21 +165,22 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script> 
-    AOS.init({
-        duration:800,
-    }); 
+    <script>
+        AOS.init({
+            duration: 800,
+        }); 
     </script>
 
     <script>
         let menuBtn = document.querySelector('.toggle')
         let navList = document.querySelector('.nav-list')
 
-        menuBtn.addEventListener('click', ()=> {
+        menuBtn.addEventListener('click', () => {
             navList.classList.toggle('active')
 
         })
     </script>
-    
+
 </body>
+
 </html>

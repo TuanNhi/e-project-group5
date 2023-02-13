@@ -73,12 +73,12 @@
                                 <input type="text" class="form-control" placeholder="Số điện thoại *"
                                     required="true">
                                 <p></p>
-                                <input type="text" class="form-control" placeholder="Email *" required="true">
+                                <input id="email-message" type="text" class="form-control" placeholder="Email *" required="true">
                                 <p></p>
-                                <textarea type="text" class="form-control" placeholder="Message"
+                                <textarea id="content-message" type="text" class="form-control" placeholder="Message"
                                     required="false"></textarea><br>
                                 <div class="col col-sm-3">
-                                    <a class="btn btn-primary">
+                                    <a class="btn btn-primary" onclick="sendEmail();">
                                         <div class="fa fa-paper-plane"></div>&nbsp;Gửi
                                     </a>
                                 </div>
@@ -196,11 +196,18 @@
         let navList = document.querySelector('.nav-list')
 
         menuBtn.addEventListener('click', () => {
-            navList.classList.toggle('active')
-
+            navList.classList.toggle('active');
         })
     </script>
+    <script>
+        function sendEmail() {
+            var link = "mailto:hongduc109@gmail.com"
+                + "&subject=" + encodeURIComponent("Thắc mắc")
+                + "&body=" + encodeURIComponent(document.getElementById('content-message').value);
 
+            window.window.open(link);
+        }
+    </script>
 </body>
 
 </html>

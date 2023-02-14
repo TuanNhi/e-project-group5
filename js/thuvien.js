@@ -7,7 +7,7 @@ var cart = new Array();
             var price = boxsp[2].children[0].innerText;
             var quantity = boxsp[3].value;
             var item = {name, img, price, quantity};
-            
+            alert("add to cart successful!");
             cart.push(item);
 
             // console.log(cart);

@@ -14,7 +14,7 @@ Student1319976  Tất Hồng Đức
 
 ============================
 
-eProject documentation at https://github.com/lnnhi1310/Kitchen-Appliances/tree/main/documentary
+eProject documentation at https://github.com/TuanNhi/e-project-group5/tree/main/document
 
 ============================
 
